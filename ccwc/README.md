@@ -4,9 +4,19 @@ My solution for `Build Your Own wc Tool` from https://codingchallenges.fyi/chall
 
 ![solution](./output.png)
 
+## Usage
+
+![usage](./usage.png)
+
 ## How to run locally
 
 ```
 npm run dev
-simulate_wc [options] <file>
+ccwc [options] <file>
+```
+
+supports piping also
+
+```
+cat test.txt | ccwc -l
 ```

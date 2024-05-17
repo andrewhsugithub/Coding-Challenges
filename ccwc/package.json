@@ -1,19 +1,19 @@
 {
-  "name": "wc",
+  "name": "ccwc",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "link": "npm link",
-    "unlink": "npm rm --global simulate_wc",
+    "unlink": "npm rm --global ccwc",
     "build": "tsc",
     "dev": "npm run build && npm link",
     "start": "node --no-warnings=ExperimentalWarning --loader ts-node/esm src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "simulate_wc": "./dist/index.js"
+    "ccwc": "./dist/index.js"
   },
   "keywords": [],
   "author": "",
