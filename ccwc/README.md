@@ -1,6 +1,6 @@
 ﻿# My Own wc tool
 
-My solution for `Build Your Own wc Tool` from https://codingchallenges.fyi/challenges/challenge-
+My solution for `Build Your Own wc Tool` from https://codingchallenges.fyi/challenges/challenge-wc
 
 ![solution](./output.png)
 
